@@ -1,0 +1,17 @@
+.signup{
+  font-family: arial, sans-serif;
+  & [type="submit"]{
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+    border: none;
+    background-color: #47A4C6;
+    &:hover{
+      background-color: #74AF43;
+    }
+  }
+}
+
+.asterix{
+  color: red;
+}
