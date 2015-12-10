@@ -17,24 +17,9 @@
         <div class="nav">
         {% for page in site.pages %}
           {% if page.title %}
-          <li class="nav-item">
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          </li>
           {% endif %}
         {% endfor %}
-          <li class="materials-bar">
-            <span>Materials</span>
-              <ul class="materials-sub-menu">
-                <li class="material-entry">
-                  <a href="google.com">Toolkit PDF</a>
-                </li>
-                <li class="material-entry">
-                  <a href="google.com">Another Asset</a>
-                </li>
-              </ul>
-            </li>
-          </li>
-        </ul>
       </div>
       </div>
     </nav>
