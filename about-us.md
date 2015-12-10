@@ -4,7 +4,7 @@ title: About-us
 permalink: /about/
 ---
 
-<h1>The Hive</h1>
+<h1>About The Hive</h1>
 <p>
   The Hive is a special project of USA for UNHCR, the UN Refugee Agency, formed to be an instrument for engaging Americans around the refugee crisis and for finding new ways to mobilize action, build awareness and knowledge about issues relating to refugees. The Hive innovation lab uses advanced data science to develop groundbreaking new models for consumer engagement. The Hive is working to unlock the potential of the US market – both in terms of advocacy and fundraising – in support of refugees and related issues.
 </p>

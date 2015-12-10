@@ -1,1 +1,42 @@
-@import 'variables';
+// @import 'variables';
+
+.materials-bar{
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  &:hover{
+    .materials-sub-menu{
+      display: block;
+      position: relative;
+    }
+  }
+}
+
+.materials-sub-menu{
+  display: none;
+  list-style-type: none;
+  position: relative;
+}
+
+.material-entry{
+  text-align: left;
+  & a{
+    text-align: center;
+    position: relative;
+  }
+}
+
+.page-link{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1em;
+}
+
+.nav{
+  display: inline-block;
+  list-style-type: none;
+  & li{
+    display: inline-block;
+    text-align: left;
+  }
+}
